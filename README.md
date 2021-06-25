@@ -19,8 +19,8 @@ Once you do all this, SFML should be properly set up to run with Visual Studio 2
 
 ### How to play
 
-Accelerate: W or ↑
-Turn Right: D or →
-Turn Left:  A or ←
-Shoot:      S or ↓ or Space
-Restart:    R
+Accelerate: W or ↑ <br>
+Turn Right: D or → <br>
+Turn Left:  A or ← <br>
+Shoot:      S or ↓ or Space <br>
+Restart:    R <br>
