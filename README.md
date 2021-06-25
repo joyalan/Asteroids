@@ -1,5 +1,5 @@
 # Asteroids
-A version of Asteroids built in SFML that does not use the `new` or `delete` keywords to manage memory. The program also uses custom data structures for memory management rather than use STL data structures like vectors or maps, so as to avoid dynamic memory allocation.
+A version of Asteroids built in SFML that does not use the `new` or `delete` keywords to dynamically manage memory.
 
 ## Assets
 All assets were purchased for usage from [here](https://kpdwyer.itch.io/lo-fi-stellar-skirmish) and [here](https://s4m-ur4i.itch.io/huge-pixelart-asset-pack).
