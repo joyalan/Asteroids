@@ -202,11 +202,14 @@ int main()
 	// actual game rendering
 	while (app.isOpen()) {
 		if (resetGame) {	// when the game either starts for the first time or you press the "R" button
+			// removal step: remove all entities and empty out the spatial hash
 			SH.clearBuckets();
-			entities.clear();
+			entities.clear();	
 
+			// creation step: recreate all entities and players
 			ePlayer.settings(aPlayer, W / 2 - 16, H / 2 - 16, 270.0f, 16.0f);
-			ePlayer.life = true;
+			ePlayer.thrust = false;
+			ePlayer.dx = ePlayer.dy = 0;
 			entities.createEntity()->value = &ePlayer;
 			// spawn asteroids
 			for (int i = 0; i < initialCount; i++) {
