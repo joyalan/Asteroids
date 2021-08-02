@@ -1,5 +1,5 @@
 # Asteroids
-A version of Asteroids built in SFML that does not use the `new` or `delete` keywords to dynamically manage memory.
+A version of Asteroids built in SFML that only allocates memory statically, similar to older games from the Playstation era.
 
 ## Assets
 All assets were purchased for usage from [here](https://kpdwyer.itch.io/lo-fi-stellar-skirmish) and [here](https://s4m-ur4i.itch.io/huge-pixelart-asset-pack).
