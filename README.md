@@ -20,7 +20,7 @@ Once you do all this, SFML should be properly set up to run with Visual Studio 2
 
 ### Other installation methods
 
-There are many other ways to compile and run SFML projects, but I will not be going into them, since they depend greatly on the user's. If you wish to compile the project yourself, you can find a number of compilation methods for SFML [here](https://www.sfml-dev.org/tutorials/2.5/). I have included an exe file that you can use to run the game without needing to install SFML.
+There are many other ways to compile and run SFML projects, but I will not be going into them, since they depend greatly on the user's. If you wish to compile the project yourself, you can find a number of compilation methods for SFML [here](https://www.sfml-dev.org/tutorials/2.5/). If you are having trouble building the game yourself, you can go to the releases page to find a download for the game.
 
 ### How to play
 
